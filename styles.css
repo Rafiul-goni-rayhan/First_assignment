@@ -66,3 +66,63 @@ nav a:hover {
   color: #469165;
 background-color: #469165; color:#FCFCFC;
 }
+
+.btn-s.btn-primary {
+  background: #286140;
+  color: #fff;
+}
+econdary {
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+}
+
+
+
+.btn-primary-large {
+  font-size: 1.1rem;
+  padding: 18px 42px;
+  background-color: #469165;
+  color: white;
+}
+
+
+.hero {
+  padding: 120px 0 160px;
+  text-align: center;
+  background: url('./B13-A01-Knowledge-Vault/assets/hero-bg.png') center/cover no-repeat;
+  color: #fff;
+  position: relative;
+   filter: brightness(1.2); 
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top:0; left:0;
+  width:100%;
+  height:100%;
+  background: rgba(0,0,0,0.5);
+  z-index:0;
+}
+
+.hero-content {
+  position: relative;
+  z-index:1;
+}
+
+.early-access-badge {
+  display: inline-block;
+  background: #e6f4ea;
+  color: #2a7a3f;
+  padding: 6px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 20px;
+}
