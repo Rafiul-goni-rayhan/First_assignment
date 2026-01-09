@@ -76,7 +76,10 @@ econdary {
   background: transparent;
   color: white;
 }
-
+.btn-primary {
+  background: #286140;
+  color: #fff;
+}
 
 
 .btn-primary-large {
