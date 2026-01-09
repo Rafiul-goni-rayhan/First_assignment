@@ -30,3 +30,39 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2a7a3f;
+}
+
+.logo-icon {
+  font-size: 32px;
+  margin-right: 6px;
+}
+
+nav a {
+  margin-left: 32px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #1a1a1a;
+}
+
+nav a:hover {
+  color: #2a7a3f;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.btn-outline {
+  border: 1px solid #469165;
+  color: #469165;
+background-color: #469165; color:#FCFCFC;
+}
