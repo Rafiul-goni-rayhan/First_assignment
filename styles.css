@@ -174,3 +174,94 @@ econdary {
   box-shadow: 0 6px 15px rgba(0,0,0,0.05);
   transition: all 0.3s;
 }
+.problem-card .icon img {
+  width: 60px;
+  height: 60px;
+  background-color: #f95555;
+  border-radius: 50%;
+  padding: 12px;
+  margin-bottom: 16px;
+}
+
+.problem-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+
+.solution {
+  padding: 140px 0;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+}
+
+.solution-container {
+  display: flex;
+  gap: 80px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.solution-diagram {
+  flex: 1 1 400px;
+  text-align: center;
+  position: relative;
+}
+
+.image_size {
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+}
+
+.solution-text-content {
+  flex: 1 1 400px;
+}
+
+.solution-text-content .small-text-green {
+  color: #2a7a3f;
+  font-weight: 600;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.solution-text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.solution-text-content p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+.solution-list {
+  list-style: none;
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+.solution-list li {
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.solution-list li::before {
+ 
+  color: white;
+  background-color: #2a7a3f; 
+  border-radius: 50%; 
+  width: 20px;  
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  font-size: 14px;
+}
