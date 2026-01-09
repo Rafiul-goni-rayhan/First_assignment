@@ -265,3 +265,62 @@ econdary {
   font-weight: bold;
   font-size: 14px;
 }
+
+
+.social-icon {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.cta {
+  padding: 100px 0;
+  text-align: center;
+  background-color: rgb(227, 223, 223);
+}
+
+.cta-subtitle {
+  padding-bottom: 20px;
+}
+
+
+footer {
+  background: #0f1b2c;
+  color: #fff;
+  padding: 60px 0 30px;
+  text-align: center;
+  
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social-links a:hover {
+  color: #2a7a3f;
+}
+
+footer p {
+  font-size: 0.9rem;
+  margin-top: 20px;
+  color: #aaa;
+}
